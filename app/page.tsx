@@ -1,33 +1,19 @@
 import type { Metadata } from "next";
-import { MarketPageShell } from "@/components/layout/MarketPageShell";
-import { GamesSection } from "@/components/sections/home/GamesSection";
-import { HomeHero } from "@/components/sections/home/HomeHero";
-import { OffersSection } from "@/components/sections/home/OffersSection";
-import { SportsSection } from "@/components/sections/home/SportsSection";
+import { Suspense } from "react";
+import { HomePageClient } from "@/components/pages/HomePageClient";
+import { HomePageView } from "@/components/pages/HomePageView";
+import { ethiopiaGlobals } from "@/config/ethiopia-globals";
 import { getEthiopiaContent } from "@/content/ethiopia-content";
-import { resolveLocale } from "@/lib/direction";
 
 export const metadata: Metadata = {
   title: "Sports, Casino, Offers, and Mobile Play",
   description: getEthiopiaContent("en").seo.homeDescription,
 };
 
-type SearchParams = Promise<Record<string, string | string[] | undefined>>;
-
-type HomePageProps = {
-  searchParams: SearchParams;
-};
-
-export default async function HomePage({ searchParams }: HomePageProps) {
-  const locale = resolveLocale((await searchParams).lang);
-  const content = getEthiopiaContent(locale);
-
+export default function HomePage() {
   return (
-    <MarketPageShell content={content} locale={locale} page="home">
-      <HomeHero content={content.home.hero} locale={locale} />
-      <GamesSection content={content.home.games} locale={locale} />
-      <SportsSection content={content.home.sports} locale={locale} />
-      <OffersSection content={content.home.offers} locale={locale} />
-    </MarketPageShell>
+    <Suspense fallback={<HomePageView locale={ethiopiaGlobals.defaultLocale} />}>
+      <HomePageClient />
+    </Suspense>
   );
 }
