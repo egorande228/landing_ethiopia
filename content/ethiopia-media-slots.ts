@@ -58,7 +58,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "homeHeroStage",
     page: "home",
     section: "hero",
-    targetPath: "/home.png",
+    targetPath: "/home.webp",
     ratio: "1 / 1.04",
     fit: "cover",
     alt: {
@@ -73,7 +73,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "casinoDiscoveryCard",
     page: "home",
     section: "games",
-    targetPath: "/games/casino.png",
+    targetPath: "/games/casino.webp",
     ratio: "1 / 1",
     fit: "cover",
     alt: {
@@ -88,7 +88,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "slotsCard",
     page: "home",
     section: "games",
-    targetPath: "/games/slots.png",
+    targetPath: "/games/slots.webp",
     ratio: "1 / 1",
     fit: "cover",
     imageScale: 1.16,
@@ -104,7 +104,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "liveGamesCard",
     page: "home",
     section: "games",
-    targetPath: "/games/live.png",
+    targetPath: "/games/live.webp",
     ratio: "1 / 1",
     fit: "cover",
     alt: {
@@ -119,7 +119,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "sportsFootballCard",
     page: "home",
     section: "sports",
-    targetPath: "/sports/football.png",
+    targetPath: "/sports/football.webp",
     ratio: "4 / 5",
     fit: "cover",
     alt: {
@@ -134,7 +134,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "sportsLiveMatchCard",
     page: "home",
     section: "sports",
-    targetPath: "/sports/live.png",
+    targetPath: "/sports/live.webp",
     ratio: "4 / 5",
     fit: "cover",
     alt: {
@@ -149,7 +149,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "sportsMobileCard",
     page: "home",
     section: "sports",
-    targetPath: "/sports/mobile.png",
+    targetPath: "/sports/mobile.webp",
     ratio: "4 / 5",
     fit: "cover",
     alt: {
@@ -164,7 +164,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "sportsRewardsCard",
     page: "home",
     section: "sports",
-    targetPath: "/sports/rewards.png",
+    targetPath: "/sports/rewards.webp",
     ratio: "4 / 5",
     fit: "cover",
     alt: {
@@ -179,7 +179,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "offersWelcomeCard",
     page: "home",
     section: "offers",
-    targetPath: "/offers/welcome.png",
+    targetPath: "/offers/welcome.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -194,7 +194,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "rewardsGiftsCard",
     page: "home",
     section: "offers",
-    targetPath: "/offers/rewards.png",
+    targetPath: "/offers/rewards.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -209,7 +209,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "offersMobileCard",
     page: "home",
     section: "offers",
-    targetPath: "/offers/mobile.png",
+    targetPath: "/offers/mobile.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -224,7 +224,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "finalPlayerCtaVisual",
     page: "home",
     section: "final-cta",
-    targetPath: "/offer/ethiopia-final-cta.png",
+    targetPath: "/offers/mobile.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -239,7 +239,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipHeroVisual",
     page: "partnership",
     section: "hero",
-    targetPath: "/partnership/ethiopia-partner-hero.png",
+    targetPath: "/partnership/tools.webp",
     ratio: "16 / 10",
     fit: "contain",
     alt: {
@@ -254,7 +254,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipBenefitsVisual",
     page: "partnership",
     section: "benefits",
-    targetPath: "/partnership/ethiopia-benefits.png",
+    targetPath: "/partnership/tools.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -269,7 +269,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipToolsVisual",
     page: "partnership",
     section: "tools",
-    targetPath: "/partnership/tools.png",
+    targetPath: "/partnership/tools.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -284,7 +284,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipPartnerRouteVisual",
     page: "partnership",
     section: "paths",
-    targetPath: "/partnership/partner.png",
+    targetPath: "/partnership/partner.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -299,7 +299,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipAgentRouteVisual",
     page: "partnership",
     section: "paths",
-    targetPath: "/partnership/agent.png",
+    targetPath: "/partnership/agent.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -314,7 +314,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "partnershipFinalCtaVisual",
     page: "partnership",
     section: "final-cta",
-    targetPath: "/partnership/ethiopia-final-cta.png",
+    targetPath: "/partnership/tools.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -329,7 +329,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "aboutHeroVisual",
     page: "about",
     section: "hero",
-    targetPath: "/about/ethiopia-about-hero.png",
+    targetPath: "/about/about.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -344,7 +344,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "aboutStoryVisual",
     page: "about",
     section: "story",
-    targetPath: "/about/ethiopia-story.png",
+    targetPath: "/about/about.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -359,7 +359,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "aboutTrustVisual",
     page: "about",
     section: "trust",
-    targetPath: "/about/about.png",
+    targetPath: "/about/about.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
@@ -374,7 +374,7 @@ const ethiopiaMediaSlots: Record<EthiopiaMediaSlotId, EthiopiaMediaSlot> = {
     slotId: "aboutFinalCtaVisual",
     page: "about",
     section: "final-cta",
-    targetPath: "/about/ethiopia-final-cta.png",
+    targetPath: "/about/about.webp",
     ratio: "16 / 10",
     fit: "cover",
     alt: {
