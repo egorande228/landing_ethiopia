@@ -1,0 +1,18 @@
+# MELBET Ethiopia
+
+> Public page index for AI crawlers and language models.
+
+Canonical domain: https://ethiopia-melbet.net/
+
+## Pages
+
+- https://ethiopia-melbet.net/
+  Sports, casino games, offers, and mobile play for MELBET Ethiopia.
+
+- https://ethiopia-melbet.net/partnership
+  Partner and agent routes with onboarding steps, support tools, and benefits for MELBET Ethiopia.
+
+## Notes
+
+- Public routes confirmed in the current app: `/` and `/partnership`.
+- The `/about` route is not published in the current build.
