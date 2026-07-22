@@ -15,4 +15,6 @@ Canonical domain: https://ethiopia-melbet.net/
 ## Notes
 
 - Public routes confirmed in the current app: `/` and `/partnership`.
+- Published locale parameter values: `en` (default), `ar`, and `am`.
+- Non-default localized views are available on published routes via `?lang=ar` and `?lang=am`.
 - The `/about` route is not published in the current build.
