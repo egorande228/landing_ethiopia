@@ -7,9 +7,9 @@ export type Direction = "ltr" | "rtl";
 export const partnershipEmail = "mailto:paypartners-eastafrica@melbet.com";
 export const partnershipTelegram = "https://t.me/Teamcash_Ethiopia";
 export const sportsLink =
-  "https://refpa3665.com/L?tag=d_4092175m_66329c_EthiopiaSport";
+  "/api/go/sports";
 export const gamesLink =
-  "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBEthiopia26";
+  "/api/go/casino";
 
 export const ethiopiaGlobals = {
   market: "Ethiopia",

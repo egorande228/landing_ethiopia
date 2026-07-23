@@ -19,14 +19,14 @@ export function ButtonLink({ cta, locale, className }: ButtonLinkProps) {
     .filter(Boolean)
     .join(" ");
 
-  if (externalProtocol.test(href)) {
-    const openInNewTab = httpProtocol.test(href);
+  if (externalProtocol.test(href) || href.startsWith("/api/go/")) {
+    const openInNewTab = httpProtocol.test(href) || href.startsWith("/api/go/");
 
     return (
       <a
         className={classes}
         href={href}
-        rel={openInNewTab ? "noreferrer" : undefined}
+        rel={href.startsWith("/api/go/") ? "sponsored nofollow noopener" : "noreferrer"}
         target={openInNewTab ? "_blank" : undefined}
       >
         {cta.label}
